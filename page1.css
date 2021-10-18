@@ -1,0 +1,83 @@
+        body{
+			background-image: url(card.jpeg);
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		h1
+		{
+			position: absolute;
+             width: 423px;
+             height: 115px;
+             left: 32px;
+             top: 0px;
+             font-style: normal;
+             /*font-family: 'Bebas Neue', cursive;*/
+             /*font-family: Rock salt;
+             src: url('c:/users/tpmadhwal/local/microsoft/windows/fonts/Rocksalt.ttf');*/
+             font-weight: normal;
+             font-size: 34px;
+             line-height: 115px;
+		}
+		nav li
+		{    
+			display: inline-block;
+			font-family: Roboto;
+            font-weight: bold;
+            line-height: 28px;
+            color: #ffffff;
+            margin-right: 40px;
+            float: right;
+            text-align: center;
+            padding: 12px;
+            font-size: 18px;
+
+		}
+		a
+		{
+			text-decoration: none;
+			color : rgb(5, 42, 255);
+		}
+		h3
+		{
+			font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 48px;
+		}
+		.box
+		{
+			position: absolute;
+            width: 600px;
+            height: 300px;
+            left: 400px;
+            top: 200px;
+            text-align: center;
+
+            background: linear-gradient(180.26deg, rgba(110, 152, 173, 0.71) 0.22%, rgba(180, 198, 202, 0.35) 99.78%);
+            backdrop-filter: blur(40px); 
+		}
+		p
+		{
+			font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 35px;
+		}
+		label
+		{
+			font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 35px;
+		}
+		button
+		{
+			border-radius: 25px;
+			background: #B0E0E6;
+            padding: 5px; 
+            width: 100px;
+            height: 30px;
+		}
